@@ -7,7 +7,7 @@
 //
 
 #import "MSWeexLoadImg.h"
-#import <WeexSDK/WXImgLoaderProtocol.h>
+#import <WeexSDK/WeexSDK.h>
 #import <SDWebImage/UIImageView+WebCache.h>
 @implementation MSWeexLoadImg
 
@@ -22,7 +22,9 @@
   return (id <WXImageOperationProtocol>)[[SDWebImageManager sharedManager] downloadImageWithURL:[NSURL URLWithString:url] options:0 progress:^(NSInteger receivedSize, NSInteger expectedSize) {
     
   } completed:^(UIImage *image, NSError *error, SDImageCacheType cacheType, BOOL finished, NSURL *imageURL) {
-    completedBlock(image,error,finished);
+    if (completedBlock) {
+      completedBlock(image,error,finished);
+    }
   }];
 }
 @end
