@@ -14,6 +14,7 @@
 		5624532D1E2CA40700CF704E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5624532B1E2CA40700CF704E /* Main.storyboard */; };
 		5624532F1E2CA40700CF704E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5624532E1E2CA40700CF704E /* Assets.xcassets */; };
 		562453321E2CA40700CF704E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 562453301E2CA40700CF704E /* LaunchScreen.storyboard */; };
+		5624533C1E2CA99500CF704E /* MSWeexLoadImg.m in Sources */ = {isa = PBXBuildFile; fileRef = 5624533B1E2CA99500CF704E /* MSWeexLoadImg.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,8 @@
 		5624532E1E2CA40700CF704E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		562453311E2CA40700CF704E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		562453331E2CA40700CF704E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5624533A1E2CA99500CF704E /* MSWeexLoadImg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSWeexLoadImg.h; sourceTree = "<group>"; };
+		5624533B1E2CA99500CF704E /* MSWeexLoadImg.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSWeexLoadImg.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,7 @@
 			children = (
 				562453251E2CA40700CF704E /* AppDelegate.h */,
 				562453261E2CA40700CF704E /* AppDelegate.m */,
+				562453391E2CA96800CF704E /* WeexModule */,
 				562453281E2CA40700CF704E /* ViewController.h */,
 				562453291E2CA40700CF704E /* ViewController.m */,
 				5624532B1E2CA40700CF704E /* Main.storyboard */,
@@ -84,6 +88,15 @@
 				562453231E2CA40700CF704E /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		562453391E2CA96800CF704E /* WeexModule */ = {
+			isa = PBXGroup;
+			children = (
+				5624533A1E2CA99500CF704E /* MSWeexLoadImg.h */,
+				5624533B1E2CA99500CF704E /* MSWeexLoadImg.m */,
+			);
+			path = WeexModule;
 			sourceTree = "<group>";
 		};
 		88B11FD3D03A2A3158441D36 /* Pods */ = {
@@ -226,6 +239,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5624533C1E2CA99500CF704E /* MSWeexLoadImg.m in Sources */,
 				5624532A1E2CA40700CF704E /* ViewController.m in Sources */,
 				562453271E2CA40700CF704E /* AppDelegate.m in Sources */,
 				562453241E2CA40700CF704E /* main.m in Sources */,
@@ -387,6 +401,7 @@
 				562453381E2CA40700CF704E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

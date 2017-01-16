@@ -7,6 +7,9 @@
 //
 
 #import "AppDelegate.h"
+#import <WeexSDK/WeexSDK.h>
+#import "ViewController.h"
+#import "MSWeexLoadImg.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +20,19 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
   // Override point for customization after application launch.
+  
+  [WXAppConfiguration setAppName:@"MSWeexViewController"];
+  [WXAppConfiguration setAppVersion:@"1.0.0"];
+  
+  [WXSDKEngine initSDKEnvironment];
+  
+  [WXSDKEngine registerHandler:[MSWeexLoadImg new] withProtocol:@protocol(WXImgLoaderProtocol)];
+  
+  self.window.rootViewController = [[ViewController alloc] initWithJS:@"main.js"];
+  
+  
+  
+  
   return YES;
 }
 
