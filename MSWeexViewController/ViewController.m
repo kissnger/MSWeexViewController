@@ -51,7 +51,8 @@
   [_instance setRenderFinish:^(UIView *view) {
     NSLog(@"创建成功");
   }];
-
+  [_instance renderWithURL:jsUrl];
+  self.view.backgroundColor = [UIColor whiteColor];
 }
 
 - (void)dealloc{
