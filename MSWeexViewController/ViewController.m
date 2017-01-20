@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-#import <WeexSDK/WeexSDK.h>
+#import "WeexSDK.h"
 @interface ViewController ()
 @property (nonatomic, strong)WXSDKInstance *instance;
 @property (nonatomic, strong)UIView *weexView;

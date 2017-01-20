@@ -7,8 +7,8 @@
 //
 
 #import "MSWeexLoadImg.h"
-#import <WeexSDK/WeexSDK.h>
-#import <SDWebImage/UIImageView+WebCache.h>
+#import "WeexSDK.h"
+#import "UIImageView+WebCache.h"
 @implementation MSWeexLoadImg
 
 

@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import "MSWeexLoadImg.h"
-#import <WeexSDK/WeexSDK.h>
+#import "WeexSDK.h"
 @interface MSWeexLoadImg : NSObject<WXImgLoaderProtocol>
 
 @end

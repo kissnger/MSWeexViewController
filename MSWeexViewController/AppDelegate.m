@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-#import <WeexSDK/WeexSDK.h>
+#import "WeexSDK.h"
 #import "ViewController.h"
 #import "MSWeexLoadImg.h"
 

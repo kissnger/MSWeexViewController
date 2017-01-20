@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		11BD73FCA65CC16B6DD817BB /* libPods-MSWeexViewController.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F1620D819A66F3C395FEB5D /* libPods-MSWeexViewController.a */; };
+		2E1445F06CBA991FD4DCE471 /* Pods_MSWeexViewController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E8A4CF2DD612C8B0778643E /* Pods_MSWeexViewController.framework */; };
 		562453241E2CA40700CF704E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 562453231E2CA40700CF704E /* main.m */; };
 		562453271E2CA40700CF704E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 562453261E2CA40700CF704E /* AppDelegate.m */; };
 		5624532A1E2CA40700CF704E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 562453291E2CA40700CF704E /* ViewController.m */; };
@@ -18,8 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0E8A4CF2DD612C8B0778643E /* Pods_MSWeexViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MSWeexViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		12FB36199EAEBAD0EB762A10 /* Pods-MSWeexViewController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MSWeexViewController.release.xcconfig"; path = "Pods/Target Support Files/Pods-MSWeexViewController/Pods-MSWeexViewController.release.xcconfig"; sourceTree = "<group>"; };
-		1F1620D819A66F3C395FEB5D /* libPods-MSWeexViewController.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MSWeexViewController.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		500118DD6AD688ACDAC964DC /* Pods-MSWeexViewController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MSWeexViewController.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MSWeexViewController/Pods-MSWeexViewController.debug.xcconfig"; sourceTree = "<group>"; };
 		5624531F1E2CA40700CF704E /* MSWeexViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MSWeexViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		562453231E2CA40700CF704E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,7 +40,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				11BD73FCA65CC16B6DD817BB /* libPods-MSWeexViewController.a in Frameworks */,
+				2E1445F06CBA991FD4DCE471 /* Pods_MSWeexViewController.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -111,7 +111,7 @@
 		D84794E3BB2F56C801C2628A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				1F1620D819A66F3C395FEB5D /* libPods-MSWeexViewController.a */,
+				0E8A4CF2DD612C8B0778643E /* Pods_MSWeexViewController.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";

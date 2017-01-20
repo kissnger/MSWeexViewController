@@ -1,0 +1,6 @@
+framework module Pods_MSWeexViewController {
+  umbrella header "Pods-MSWeexViewController-umbrella.h"
+
+  export *
+  module * { export * }
+}
